@@ -1,0 +1,15 @@
+{
+	"entries": {
+		"minecraft:carrot": [ "compost" ],
+		"minecraft:potato": [ "growth" ],
+		"minecraft:beetroot": [ "fertile" ],
+
+		"minecraft:wheat": [ "compost", "growth" ],
+		"little_things:tomato": [ "compost", "fertile" ],
+		"little_things:corn": [ "growth", "fertile" ],
+
+		"minecraft:pumpkin": [ "compost" ],
+		"minecraft:melon": [ "growth" ],
+		"little_things:squash": [ "fertile" ]
+	}
+}

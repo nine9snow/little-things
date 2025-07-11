@@ -38,14 +38,14 @@ public class MysteryCropBlock extends CropBlock {
 
 		if (world.getBaseLightLevel(pos, 0) < 9) return;
 
-		float f = getAvailableMoisture(this, world, pos);
-		if (random.nextInt((int)(25.0F / f) + 1) == 0) {
-			RegistryEntryList<Block> possibleCrops = world.getRegistryManager()
-				.getWrapperOrThrow(RegistryKeys.BLOCK)
-				.getOrThrow(LittleTags.MYSTERY_CROP);
-			BlockState newState = possibleCrops.getRandom(random).get().value().getDefaultState();
-			world.setBlockState(pos, newState);
-		}
+		float moisture = getAvailableMoisture(this, world, pos);
+		if (random.nextInt((int)(25.0F / moisture) + 1) != 0) return;
+
+		RegistryEntryList<Block> possibleCrops = world.getRegistryManager()
+			.getWrapperOrThrow(RegistryKeys.BLOCK)
+			.getOrThrow(LittleTags.MYSTERY_SEEDS_TRANSFORM_INTO);
+		BlockState newState = possibleCrops.getRandom(random).orElseThrow().value().getDefaultState();
+		world.setBlockState(pos, newState);
 	}
 
 	protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
