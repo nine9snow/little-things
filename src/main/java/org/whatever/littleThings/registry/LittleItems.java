@@ -17,12 +17,12 @@ public class LittleItems {
 
 	public static void init() {}
 
-	public static final Item SIMPLE_SMITHING_STONE = register("garden_goggles",
-		settings -> new GardenGogglesItem(settings),
+	public static final Item GARDEN_GOGGLES = register("garden_goggles", GardenGogglesItem::new,
 		new Item.Settings()
+			.maxCount(1)
 	);
 
-	public static final Item MIXED_SEEDS = register("mixed_seeds",
+	public static final Item MYSTERY_SEEDS = register("mystery_seeds",
 		settings -> new AliasedBlockItem(Blocks.POTATOES, settings),
 		new Item.Settings()
 	);

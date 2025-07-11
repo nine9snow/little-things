@@ -5,6 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.whatever.littleThings.registry.LittleBlocks;
+import org.whatever.littleThings.registry.LittleItemGroups;
 import org.whatever.littleThings.registry.LittleItems;
 
 public class LittleThings implements ModInitializer {
@@ -19,6 +21,8 @@ public class LittleThings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LittleItems.init();
+		LittleBlocks.init();
+		LittleItemGroups.init();
 	}
 
 }
