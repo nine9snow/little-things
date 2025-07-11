@@ -23,7 +23,7 @@ public class LittleItems {
 	);
 
 	public static final Item MYSTERY_SEEDS = register("mystery_seeds",
-		settings -> new AliasedBlockItem(Blocks.POTATOES, settings),
+		settings -> new AliasedBlockItem(LittleBlocks.MYSTERY_CROP, settings),
 		new Item.Settings()
 	);
 	public static final Item POTATO_SEEDS = register("potato_seeds",

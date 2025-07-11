@@ -7,15 +7,17 @@
 	"description": "W.I.P. ",
 	"authors": [ "Me!" ],
 	"contact": {
-		"homepage": "https://github.com/Whatever",
-		"sources": "https://github.com/Whatever/Little-Things"
+		"homepage": "https://github.com/nine9snow",
+		"sources": "https://github.com/nine9snow/little-things"
 	},
 	"license": "LGPL-3.0",
-	"icon": "assets/little-things/icon.png",
+	"icon": "assets/little_things/icon.png",
 
 	"environment": "*",
 	"entrypoints": {
-		"main": [ "org.whatever.littleThings.LittleThings" ]
+		"main": [ "org.whatever.littleThings.LittleThings" ],
+		"client": [ "org.whatever.littleThings.client.LittleThingsClient" ],
+		"fabric-datagen": [ "org.whatever.littleThings.datagen.LittleDataGenerator" ]
 	},
 	"mixins": [ "little_things.mixins.json" ],
 	"accessWidener": "little_things.accesswidener",

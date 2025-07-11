@@ -3,7 +3,8 @@
 	"package": "org.whatever.littleThings.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"CropBlockMixin",
+		"ItemsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
