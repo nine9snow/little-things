@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.little_things.slagforged_blade"
+                },
+                "minecraft:custom_data": {
+                  "little_things": {
+                    "id": "slagforged_blade",
+                    "state": "normal",
+                    "hits_left": 5
+                  }
+                },
+                "minecraft:max_damage": 300,
+                "minecraft:lore": [
+                  {
+                    "translate": "text.little_things.insert_two",
+                    "italic": false,
+                    "with": [
+                      {
+                        "text": "a",
+                        "font": "little_things:icon",
+                        "color": "white"
+                      },
+                      {
+                        "translate": "pack.little_things",
+                        "font": "little_things:five",
+                        "color": "#80D9B8"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "d2d.damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": [
+                        " ",
+                        {
+                          "translate": "text.little_things.insert_two",
+                          "color": "dark_green",
+                          "with": [
+                            "6",
+                            {
+                              "translate": "attribute.name.attack_damage"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "d2d.speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": [
+                        " ",
+                        {
+                          "translate": "text.little_things.insert_two",
+                          "color": "dark_green",
+                          "with": [
+                            "2",
+                            {
+                              "translate": "attribute.name.attack_speed"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "minecraft:blocks_attacks": {
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "type": "#little_things:blocked_by_slagforged_blade",
+                      "base": 100,
+                      "factor": 1,
+                      "horizontal_blocking_angle": 20
+                    }
+                  ],
+                  "item_damage": {
+                    "threshold": 1,
+                    "base": 1,
+                    "factor": 0
+                  }
+                },
+                "minecraft:repairable": {
+                  "items": "minecraft:flint"
+                },
+                "minecraft:item_model": "little_things:item/slagforged_blade",
+                "minecraft:tooltip_style": "little_things:little_things"
+              }
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "little_things:items/slagforged_blade"
+}

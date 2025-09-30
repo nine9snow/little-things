@@ -1,0 +1,1 @@
+$execute as @e[type=minecraft:item_display, nbt={data: {owner: $(uuid)}}] run function little_things:block/toolbox/items/kill/as_entity

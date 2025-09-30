@@ -1,0 +1,1 @@
+execute if data storage little_things:temp root.macro.components."minecraft:custom_data".little_things{id:"toolbox"} run function little_things:block/toolbox/place/main

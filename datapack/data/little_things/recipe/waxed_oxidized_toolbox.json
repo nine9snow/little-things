@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "little_things:toolbox",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "X": "minecraft:waxed_oxidized_copper"
+  },
+  "pattern": [
+    "##",
+    "XX"
+  ],
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "block.little_things.waxed_oxidized_toolbox"
+      },
+      "minecraft:custom_data": {
+        "little_things": {
+          "id": "toolbox",
+          "state": "oxidized",
+          "waxed": true,
+          "items": []
+        }
+      },
+      "!minecraft:damage": {},
+      "!minecraft:max_damage": {},
+      "!minecraft:enchantable": {},
+      "!minecraft:enchantments": {},
+      "minecraft:lore": [
+        {
+          "translate": "text.little_things.insert_two",
+          "italic": false,
+          "with": [
+            {
+              "text": "a",
+              "font": "little_things:icon",
+              "color": "white"
+            },
+            {
+              "translate": "pack.little_things",
+              "font": "little_things:five",
+              "color": "#80D9B8"
+            }
+          ]
+        },
+        "",
+        {
+          "translate": "tooltip.little_things.contents",
+          "color": "gray",
+          "italic": false,
+          "with": [
+            "0",
+            "6"
+          ]
+        }
+      ],
+      "minecraft:item_model": "little_things:item/oxidized_toolbox",
+      "minecraft:tooltip_style": "little_things:little_things"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "little_things:item/toolbox"
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "scale": 1,
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:empty"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/1"
+                  }
+                },
+                {
+                  "threshold": 2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/2"
+                  }
+                },
+                {
+                  "threshold": 3,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/3"
+                  }
+                },
+                {
+                  "threshold": 4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/4"
+                  }
+                },
+                {
+                  "threshold": 5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/5"
+                  }
+                },
+                {
+                  "threshold": 6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "little_things:gui/fill_progress/6"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+$execute if items entity @s weapon.$(hand) minecraft:iron_sword[minecraft:custom_data~{little_things: {state: "heated"}}] run return fail
+$execute if items entity @s weapon.$(hand) minecraft:iron_sword[minecraft:custom_data~{little_things: {hits_left: 1}}] run return run function little_things:item/slagforged_blade/heat {hand: $(hand)}
+$item modify entity @s weapon.$(hand) {"function":"minecraft:set_components","components":$(components)}

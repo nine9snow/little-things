@@ -1,0 +1,27 @@
+{
+  "parent": "little_things:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"little_things.toolbox_item\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "little_things:block/toolbox/items/interact/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

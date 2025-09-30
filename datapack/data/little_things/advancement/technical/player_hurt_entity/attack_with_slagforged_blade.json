@@ -1,0 +1,62 @@
+{
+  "parent": "little_things:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "little_things": {
+                    "id": "slagforged_blade",
+                    "state": "heated"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fall",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_lightning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "little_things:item/slagforged_blade/attack/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

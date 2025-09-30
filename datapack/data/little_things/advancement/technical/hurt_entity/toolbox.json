@@ -1,0 +1,27 @@
+{
+  "parent": "little_things:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"little_things.toolbox\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "little_things:block/toolbox/break/advancement"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

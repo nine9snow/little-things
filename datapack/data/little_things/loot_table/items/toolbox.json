@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "block.little_things.toolbox"
+                },
+                "minecraft:custom_data": {
+                  "little_things": {
+                    "id": "toolbox",
+                    "state": "default",
+                    "items": []
+                  }
+                },
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "!minecraft:enchantments": {},
+                "minecraft:lore": [
+                  {
+                    "translate": "text.little_things.insert_two",
+                    "italic": false,
+                    "with": [
+                      {
+                        "text": "a",
+                        "font": "little_things:icon",
+                        "color": "white"
+                      },
+                      {
+                        "translate": "pack.little_things",
+                        "font": "little_things:five",
+                        "color": "#80D9B8"
+                      }
+                    ]
+                  },
+                  "",
+                  {
+                    "translate": "tooltip.little_things.contents",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                      "0",
+                      "6"
+                    ]
+                  }
+                ],
+                "minecraft:item_model": "little_things:item/toolbox",
+                "minecraft:tooltip_style": "little_things:little_things"
+              }
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "little_things:items/toolbox"
+}

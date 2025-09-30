@@ -1,0 +1,30 @@
+{
+  "pack.little_things": "Little Things",
+
+  "item.little_things.slagforged_blade": "Slagforged Blade",
+
+  "subtitles.little_things.item.slagforged_blade.heat": "Slagforged Blade heats",
+  "subtitles.little_things.item.slagforged_blade.cool": "Slagforged Blade cools",
+  "subtitles.little_things.item.slagforged_blade.block": "Slagforged Blade blocks",
+  
+  "block.little_things.toolbox": "Toolbox",
+  "block.little_things.exposed_toolbox": "Exposed Toolbox",
+  "block.little_things.weathered_toolbox": "Weathered Toolbox",
+  "block.little_things.oxidized_toolbox": "Oxidized Toolbox",
+  "block.little_things.waxed_toolbox": "Waxed Toolbox",
+  "block.little_things.waxed_exposed_toolbox": "Waxed Exposed Toolbox",
+  "block.little_things.waxed_weathered_toolbox": "Waxed Weathered Toolbox",
+  "block.little_things.waxed_oxidized_toolbox": "Waxed Oxidized Toolbox",
+
+  "subtitles.little_things.block.toolbox.open": "Toolbox opened",
+  "subtitles.little_things.block.toolbox.close": "Toolbox closed",
+  "subtitles.little_things.block.toolbox.swap": "Item swapped",
+
+  "tooltip.little_things.contents": "Contents (%s / %s)",
+
+  "text.little_things.warning": "Items will not show in the creative inventory. You may use the following command to get them:",
+  "text.little_things.join": "%s %s version %s installed",
+
+  "text.little_things.insert_two": "%s %s",
+  "text.little_things.insert_three": "%s %s %s"
+}

@@ -1,0 +1,1 @@
+$data modify storage little_things:temp root.contents append value {id: "minecraft:barrier", count: 1, components: {"minecraft:item_model": "little_things:item/$(state)_empty_slot", "minecraft:custom_data": {little_things: {id: "invalid"}}}}

@@ -1,0 +1,3 @@
+tag @s add little_things.warned
+tellraw @s [{"text": "a", "font": "little_things:icon"}, {"text": " ", "font": "minecraft:default"}, {"translate": "text.little_things.warning", "color": "#80D9B8", "font": "minecraft:default"}]
+tellraw @s [{"text": " - ", "color": "#2F634F"}, {"text": "/loot give @s loot little_things:items/", "color": "#2F634F", "click_event": {"action": "suggest_command", "command": "/loot give @s loot little_things:items/"}}]

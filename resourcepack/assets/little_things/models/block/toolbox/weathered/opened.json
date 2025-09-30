@@ -1,0 +1,6 @@
+{
+  "parent": "little_things:block/toolbox/opened",
+  "textures": {
+    "0": "little_things:block/weathered_toolbox"
+  }
+}

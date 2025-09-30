@@ -1,0 +1,4 @@
+execute if data entity @s data{state: "default"} run data modify entity @s item.components."minecraft:item_model" set value "little_things:block/toolbox"
+execute if data entity @s data{state: "exposed"} run data modify entity @s item.components."minecraft:item_model" set value "little_things:block/exposed_toolbox"
+execute if data entity @s data{state: "weathered"} run data modify entity @s item.components."minecraft:item_model" set value "little_things:block/weathered_toolbox"
+execute if data entity @s data{state: "oxidized"} run data modify entity @s item.components."minecraft:item_model" set value "little_things:block/oxidized_toolbox"

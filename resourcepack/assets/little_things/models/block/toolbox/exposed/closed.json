@@ -1,0 +1,6 @@
+{
+  "parent": "little_things:block/toolbox/closed",
+  "textures": {
+    "0": "little_things:block/exposed_toolbox"
+  }
+}

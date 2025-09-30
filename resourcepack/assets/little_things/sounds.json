@@ -1,0 +1,46 @@
+{
+  "block.toolbox.open": {
+    "sounds": [
+      "little_things:block/toolbox/open"
+    ],
+    "subtitle": "subtitles.little_things.block.toolbox.open"
+  },
+  "block.toolbox.close": {
+    "sounds": [
+      "little_things:block/toolbox/close"
+    ],
+    "subtitle": "subtitles.little_things.block.toolbox.close"
+  },
+  "block.toolbox.swap": {
+    "sounds": [
+      {"name": "little_things:block/toolbox/swap", "pitch": 0.8},
+      {"name": "little_things:block/toolbox/swap", "pitch": 1.0},
+      {"name": "little_things:block/toolbox/swap", "pitch": 1.2}
+    ],
+    "subtitle": "subtitles.little_things.block.toolbox.swap"
+  },
+  "item.slagforged_blade.heat": {
+    "sounds": [
+      {"name": "little_things:item/slagforged_blade/heat", "pitch": 0.8},
+      {"name": "little_things:item/slagforged_blade/heat", "pitch": 1.0},
+      {"name": "little_things:item/slagforged_blade/heat", "pitch": 1.2}
+    ],
+    "subtitle": "subtitles.little_things.item.slagforged_blade.heat"
+  },
+  "item.slagforged_blade.cool": {
+    "sounds": [
+      {"name": "little_things:item/slagforged_blade/cool", "pitch": 0.8},
+      {"name": "little_things:item/slagforged_blade/cool", "pitch": 1.0},
+      {"name": "little_things:item/slagforged_blade/cool", "pitch": 1.2}
+    ],
+    "subtitle": "subtitles.little_things.item.slagforged_blade.cool"
+  },
+  "item.slagforged_blade.block": {
+    "sounds": [
+      {"name": "little_things:item/slagforged_blade/block", "pitch": 0.9},
+      {"name": "little_things:item/slagforged_blade/block", "pitch": 1.0},
+      {"name": "little_things:item/slagforged_blade/block", "pitch": 1.1}
+    ],
+    "subtitle": "subtitles.little_things.item.slagforged_blade.block"
+  }
+}

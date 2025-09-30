@@ -1,0 +1,1 @@
+$execute as @n[type=minecraft:item_display,nbt={data: {owner: $(uuid), index: $(index)}}] run function little_things:block/toolbox/items/read/write

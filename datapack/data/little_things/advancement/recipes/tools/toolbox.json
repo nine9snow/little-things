@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "little_things:toolbox"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_the_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "little_things:toolbox",
+      "little_things:waxed_toolbox",
+      "little_things:exposed_toolbox",
+      "little_things:waxed_exposed_toolbox",
+      "little_things:weathered_toolbox",
+      "little_things:waxed_weathered_toolbox",
+      "little_things:oxidized_toolbox",
+      "little_things:waxed_oxidized_toolbox"
+    ]
+  }
+}

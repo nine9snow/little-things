@@ -1,0 +1,9 @@
+{
+	"values": [
+		"#minecraft:air",
+		"minecraft:light",
+		"minecraft:water",
+		"minecraft:lava",
+		"minecraft:bubble_column"
+	]
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "little_things:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "little_things": {
+                    "id": "slagforged_blade"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      }
+    },
+    "alternate_requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "little_things": {
+                    "id": "slagforged_blade"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "little_things:item/slagforged_blade/block"
+  },
+  "requirements": [
+    [
+      "requirement",
+      "alternate_requirement"
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "min_format": 88,
+    "max_format": 88,
+    "description": [
+      {
+        "text": "Little Things",
+        "color": "#80D9B8"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "@ninesnow",
+        "color": "#caebe8"
+      }
+    ]
+  }
+}

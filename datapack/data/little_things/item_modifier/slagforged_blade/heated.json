@@ -1,0 +1,71 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "heated"
+      ],
+      "mode": "replace_all"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "d2d.damage",
+          "amount": 9,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": [
+              " ",
+              {
+                "translate": "text.little_things.insert_two",
+                "color": "dark_green",
+                "with": [
+                  "10",
+                  {
+                    "translate": "attribute.name.attack_damage"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "d2d.speed",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": [
+              " ",
+              {
+                "translate": "text.little_things.insert_two",
+                "color": "dark_green",
+                "with": [
+                  "4",
+                  {
+                    "translate": "attribute.name.attack_speed"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "minecraft:custom_data": {
+        "little_things": {
+          "state": "heated",
+          "id": "slagforged_blade",
+          "hits_left": 8
+        }
+      }
+    }
+  }
+]

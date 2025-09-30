@@ -1,0 +1,1 @@
+$data modify storage little_things:temp root.contents append from storage little_things:temp root.items[$(index)]

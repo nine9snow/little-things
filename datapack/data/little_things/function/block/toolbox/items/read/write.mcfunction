@@ -1,0 +1,1 @@
+execute unless data entity @s item.components."minecraft:custom_data".little_things{id: "invalid"} run data modify storage little_things:temp root.contents append from entity @s item

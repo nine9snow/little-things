@@ -1,0 +1,2 @@
+$data modify storage little_things:temp root.spawn set from storage little_things:temp root.contents[$(index)]
+function little_things:block/toolbox/break/lore/spawn with storage little_things:temp root

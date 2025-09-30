@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data~{little_things: {hits_left: 1}}] run return run function little_things:item/slagforged_blade/cool {hand: mainhand}
+$item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":$(components)}

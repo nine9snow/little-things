@@ -1,0 +1,2 @@
+execute unless data entity @s item.components."minecraft:custom_data".little_things{id: "invalid"} run data modify storage little_things:temp root.swap set from entity @s item
+$data modify entity @s item set value {id: "minecraft:barrier", count: 1, components: {"minecraft:item_model": "little_things:item/$(state)_empty_slot", "minecraft:custom_data": {little_things: {id: "invalid"}}}}

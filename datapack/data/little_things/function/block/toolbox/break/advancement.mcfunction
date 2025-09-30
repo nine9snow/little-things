@@ -1,0 +1,2 @@
+advancement revoke @s only little_things:technical/hurt_entity/toolbox
+execute as @n[type=minecraft:interaction,tag=little_things.toolbox,nbt={attack:{}}] at @s run function little_things:block/toolbox/break/main

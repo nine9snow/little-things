@@ -1,0 +1,2 @@
+scoreboard players reset @s little_things.left
+tellraw @s {"translate": "text.little_things.join", "color": "#caebe8", "with": [{"text": "a", "font": "little_things:icon", "color": "white"}, {"translate": "pack.little_things", "color": "#80D9B8"}, {"text": "0.1", "color": "#80D9B8"}]}
