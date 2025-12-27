@@ -42,7 +42,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "type": "minecraft:attack_damage",
-                    "id": "d2d.damage",
+                    "id": "little_things.damage",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "mainhand",
@@ -65,7 +65,7 @@
                   },
                   {
                     "type": "minecraft:attack_speed",
-                    "id": "d2d.speed",
+                    "id": "little_things.speed",
                     "amount": -2,
                     "operation": "add_value",
                     "slot": "mainhand",

@@ -12,7 +12,6 @@
         }
       ]
     ],
-    "replace": true,
     "mode": "replace_all",
     "conditions": [
       {
@@ -36,7 +35,7 @@
         {
           "selector": "@s",
           "color": "aqua",
-          "italic": true
+          "italic": false
         }
       ]
     ],
